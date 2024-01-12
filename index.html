@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <script src="script.js"></script>
+    <link href="styles.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="todoBox">
+            <h1>ToDo.io</h1>
+            <button class = "button-32" id="addTask">Add Task</button>
+            
+        </div>
+        <div class="addTaskPopUp hidden" >
+            <fieldset><legend>Add Task</legend><input id="taskInfo" type="text"></fieldset>
+            <fieldset><legend>Description</legend><input id="taskInfoDescription" type="text"></fieldset>
+            <button id="submit">Submit</button>
+            <button id="cancel">Cancel</button>
+        </div>
+        <div class="list"><fieldset class="temp">No task found</fieldset></div>
+    </div>
+
+    
+</body>
+</html>

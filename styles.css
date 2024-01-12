@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    background-color:black ;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hidden{
+    display: none;
+}
+
+.temp{margin-top:7px;}
+h1{
+    color: white;
+    margin:7px
+}
+.container{
+    max-width: 60%;
+    min-width: 40%;
+    background-color:rgb(80, 57, 155);
+    padding: 10px;
+    border-radius: 10px;
+    }
+
+
+fieldset{margin:7px;
+border-color: #fff000;
+border-radius: 10px;}
+.list{
+    color: white;
+    
+    
+}
+
+
+
+/* CSS */
+.button-32 {
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 4px 5px;
+  text-align: center;
+  transition: 200ms;
+  /* width: 100%; */
+  box-sizing: border-box;
+  border: 0;
+  font-size: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 7px;
+}
+
+.button-32:not(:disabled):hover,
+.button-32:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-32:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+legend{
+    color: white;
+}
+/* .listMargins,.temp{
+    border: 2px solid #fff000;
+} */
+
