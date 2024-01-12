@@ -43,9 +43,10 @@ function showList() {
     tasksList.forEach(i => {
         list.innerHTML += `
         <div class="listMargins">
-        <fieldset><strong>Task</strong>: ${i.text}</fieldset>
-        <fieldset><strong>Description</strong>: ${i.description}</fieldset>
-        <button id="deleteTask" class="button-32">Delete Task</button>
+        <fieldset><strong>Task</strong>: ${i.text}<strong><br>Description</strong>: ${i.description}</fieldset>
+        <button id="deleteTask" class="button-32">Remove</button>
+        <button id="editTask" class="button-32">Edit</button>
+        
         </div>
         `;
         //FIX DELETE FEATURE
