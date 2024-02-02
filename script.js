@@ -44,14 +44,9 @@ function showList() {
         list.innerHTML += `
         <div class="listMargins">
         <fieldset><strong>Task</strong>: ${i.text}<strong><br>Description</strong>: ${i.description}</fieldset>
-        <button id="deleteTask" class="button-32">Remove</button>
-        <button id="editTask" class="button-32">Edit</button>
-        
         </div>
         `;
-        //FIX DELETE FEATURE
-        const deleteTask = document.getElementById("deleteTask");
-        deleteTask.addEventListener("click",deleteCurrentTask);
+    
     });
     console.log(tasksList);
    
@@ -61,19 +56,6 @@ function showList() {
 
 
 
-
-
-function deleteCurrentTask(){
-    // const removeIndex = tasksList.findIndex(index => index.id===id);
-    if(removeIndex !== -1){
-        tasksList.splice(removeIndex,1);
-        showList();
-    }
-    else{
-        alert("not found");
-    }
-
-}
 
 
 
